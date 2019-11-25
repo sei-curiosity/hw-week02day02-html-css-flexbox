@@ -1,0 +1,21 @@
+div {
+  padding: 20px;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.r1 {
+  background-color: black;
+  color: white;
+}
+
+.title1 {
+  color: yellow;
+}
+.r3 {
+  background-image: url("./images/coworking.jpg");
+  height: 500px;
+}
