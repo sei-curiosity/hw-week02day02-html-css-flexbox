@@ -1,0 +1,91 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 120px;
+    text-align: center;
+  }
+  li h1{
+      color: yellow
+  }
+  header{
+      text-align: center;
+      background: gray;
+      font-style: italic;
+      font-size: larger;
+      height: 50px;
+  }
+  header p{
+      padding: 10px;
+  }
+  .main{
+      background-image: url('../starter_code/images/coworking.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+    .box{
+        border: 2px solid black;
+        background: rgba(255, 255, 255,0.5);
+        margin-left: auto;
+        text-align: center;
+        position: relative;
+        top:0px;
+        left: -57px;
+        height: 521px;
+        width: 954px;
+    }
+.box button{
+    text-align: center;
+    background: yellow;
+    color: black;
+    height: 37px;
+    width: 195px;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    display:inline-block;
+    margin-bottom: 20px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.col button{
+    background: darkgrey;
+    height: 38px;
+    width: 176px;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
