@@ -1,0 +1,148 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container{
+
+    padding:15px;
+    display:flex;
+    background-color:black;
+    flex-direction:row;
+    align-items: flex-start;
+
+}
+.startup{
+    font-family: 'Merriweather', serif;
+    color:yellow;
+    font-size: 30px;
+    flex-grow:5;
+    font-weight:bold;
+    flex-direction:row;
+
+    
+
+
+
+}
+
+.d{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size:20px;
+    font-weight:bold; 
+    flex-grow:1;  
+    padding-top:10px; 
+}
+
+.b{
+font-size:15px;
+color:white;
+flex-grow:1;   
+padding-top:10px; 
+
+}
+.yellowBar{
+    padding:3px;
+    background-color:yellow;
+}
+
+.paragraph1{
+    text-align: center;
+    background-color: lightgray;
+    padding:2px;
+}
+span{ 
+    color:darkgrey;
+    text-decoration:line-through;
+}
+
+u{
+    text-decoration-color: yellow;
+
+}
+
+
+.section1{
+
+    position: relative;   
+}
+
+img{
+    width:100%;
+}
+
+.box{
+    position: absolute;
+    border-radius: 3px;
+    background-color: rgba(249, 243, 243, 0.8);
+    font-size: 9px;
+    display: inline;
+    left: 600px;
+    width: 260px;
+    top: 260px;
+    padding: 30px;
+    border:black 3px;
+    text-align: center;
+}
+
+.strong1{
+    font-size:12px ;
+}
+
+
+.button1{
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 70px;
+    border-radius: 2px;
+    background-color: yellow;
+}
+
+.section2{
+
+    padding:300px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.section2 div{
+
+    border: 1px black solide;
+}
+.leftSide{
+    justify-content:space-between;
+    padding:30px;
+    font-size:10px;
+}
+.center{
+    justify-content:space-between;
+    font-size:10px;
+}
+.rightSide{
+    justify-content:space-between;
+    font-size:10px;
+}
+
+.button2{
+    padding:3px 15px;
+    background-color: lightgrey;
+    border-radius: 3px;
+    display: block;
+}
+
+.strong2{
+
+    font-size:15px;
+}
+
+
+footer{
+
+    padding:12px;
+    text-align: center;
+    background-color: black;
+   color:white;
+   font-size:12px;
+
+}
