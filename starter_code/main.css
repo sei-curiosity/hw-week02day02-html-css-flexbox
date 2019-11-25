@@ -1,0 +1,145 @@
+*{ font-family: 'Source Sans Pro', sans-serif;
+     font-size: 20px;
+    line-height: 1.5;}
+    header{
+        background-color: black;
+        color: white;
+       
+    }
+    footer{
+        color: white;
+        background-color: black;
+        font-size: 8px;
+    }
+   li{
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-self: center;
+      }
+      button{font-family: 'Oswald', sans-serif;}
+      a{color:white;}
+      .container{
+display: flex;
+
+
+      }
+      .container div{
+        font-family: 'Oswald', sans-serif;
+padding: 30px;
+text-align: left;
+
+
+      }
+      .firstpart{ display: flex;
+    padding: 20px;}
+.secpart{
+    font-family: 'Oswald', sans-serif;
+background-image:url(images/coworking.jpg) ;
+background-position: center; 
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; 
+display: flex;
+align-content:flex-end;
+justify-content: flex-end;
+
+}
+.meet{
+ margin: 100px;
+background-color: rgba(244, 244, 245, 0.8);
+padding: 30px;
+text-align: left;
+box-shadow:  1px 1px ;
+
+
+
+}
+.because{
+    font-family: 'Merriweather', serif;
+padding: 15px;
+text-align: center;
+color:black;
+background-color: lightgrey;
+
+}
+.because h2{
+
+    font-family: 'Merriweather', serif;
+}
+
+.yellow{background-color: yellow;
+padding: 5px;}
+.create{
+
+background-color: yellow;
+border-radius: 5px;
+text-align: center;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-right: 20px;
+margin-left: 20px;
+box-shadow:  1px 1px grey;
+font-family: 'Merriweather', serif;
+}
+
+.buttons{
+
+ font-family: 'Oswald', sans-serif;
+ font-weight:900 ;
+    background-color:  lightgray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow:  1px 1px grey;
+    display: block;
+    width: 100%;
+
+}
+.start{color:yellow;
+    font-family: 'Merriweather', serif;
+}
+
+
+.navi{
+position: absolute;
+top:25px ;
+right: 30px;
+
+}
+.navi a{
+padding-right: 15px;
+padding-left: 15px;
+text-decoration: none;
+
+
+}
+.taste{
+color:darkgrey;
+text-decoration-line: line-through;
+font-style:italic ;
+font-weight: 500;
+}
+.are{
+    text-decoration-line:underline;
+    text-decoration-color: yellow;
+   
+}
+footer p{font-size:14px ;
+    padding: 20px;
+padding-left: 10px;
+margin:30px;}
+
+.find{
+
+
+    font-family: 'Oswald', sans-serif; 
+}
