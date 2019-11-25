@@ -1,0 +1,57 @@
+body {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    line-height: 1.5;
+    align-items: center;  /* y */
+    justify-content: center; /* x */
+    padding:50px;
+    background-image: ;
+
+}
+h1,h2 {
+    font-family: 'Merriweather', serif;
+}
+.createaprofile {
+    font-family: 'Merriweather', serif;
+}
+.signup button {
+    font-size: 12px;
+    background-color: grey;
+    border:flex;
+}
+.startyoursearch button{
+    font-size: 12px;
+    background-color: grey;
+    border:flex;
+}
+.startyoursearch1 {
+    font-size: 12px;
+    background-color: grey; 
+    border:flex;
+}
+header {
+
+    height: 600px;
+    margin: 0;
+    color: #FFF;
+    padding: 25px;
+}
+
+footer {
+
+    background-color: #121212;
+    padding: 3px;
+    color: #FFF;
+
+    align-items: flex-start;  /* y */
+    justify-content: flex-end; /* x */
+    
+}
+.createaprofile button {
+    background-color: yellow;
+}
