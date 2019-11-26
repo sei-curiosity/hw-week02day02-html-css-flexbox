@@ -1,0 +1,36 @@
+*{
+
+}
+body{
+
+}
+header{
+    display:flex;
+    justify-items: space-between;
+    align-items: center;
+    background-color:black;
+    border-bottom: 5px solid yellow;
+}
+nav{
+    
+
+}
+.phrase, .phrase *{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:#C6C6C6;
+    margin:0;
+    padding:10px 0;
+    
+}
+.logo{
+    color: yellow;
+    padding:10px;
+}
+nav a{
+
+    padding:10px;
+    color:white;
+    text-decoration: none;
+}
