@@ -44,4 +44,3 @@ Content
 - Need someone who can make a product intuitive and appealing? Get ready.
 
 - © 2013 Startup Matchmaker. Made in NY.
-```
