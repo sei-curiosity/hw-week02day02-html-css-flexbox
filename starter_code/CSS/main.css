@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    flex-wrap: wrap;
+    
+
+}
+header{
+    background: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: yellow 5px solid;
+}
+header >h1{
+    font-family: 'Merriweather', serif;
+    color:yellow;
+    font-size :40px;
+    font-weight: 900;
+    align-self: center;
+    margin-left: 20px;
+}
+header> nav{
+    
+    padding-right: 30px;
+    align-self: center;
+}
+nav >a{
+    text-decoration: none;
+    color:white;
+    margin-left: 15px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.bolded_nav{
+    font-weight: bold;
+    font-size: 20px;
+}
+.test{
+    height: 50px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: lightgray;
+
+}
+.test>h1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.main_theme {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    background-image:url('../images/coworking.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    
+}
+
+.text_box{
+    border-radius: 5px;
+    padding:55px 40px;
+    width:140px;
+    flex-grow: 0;
+    flex-basis: 35%;
+    border :1px inset #C6C6C6;
+    align-self: center;
+    margin-right:30px; 
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(250,250,250,0.8);
+
+}
+.text_box>h1{
+    padding-bottom: 10px;
+    font-size:23px;
+    font-weight: 800;
+}
+
+
+.text_box>p{
+    padding-bottom: 15px;
+}
+
+.text_box>button{
+    
+    background: yellow;
+    border:1px yellow(90, 89, 89) solid;
+    padding:10px 10px ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    border-bottom: yellow 3px outset;
+    border-radius: 3%;
+   
+
+}
+
+.three_column{
+    display:flex;
+    flex-direction: raw;
+    justify-content: space-around;
+   
+    padding:  25px 30px;
+    flex-wrap: wrap;
+    
+   
+
+}
+.column{
+    padding-right: 30px;
+   width :30%;
+   
+   flex-shrink: 25%;
+   
+   border-right: #C6C6C6 1px   solid ;
+   display:flex;
+   flex-direction: column;
+
+   
+}
+.column:last-child{
+    border-right:none ;
+    padding-right: 0;
+}
+
+.column>h1{
+    font-size: 27px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.column>p{
+    margin-bottom: 20px;
+}
+.column>button{
+    margin-bottom: 20px;
+    padding-bottom:15px;
+    padding-top:15px;
+    background: #C6C6C6;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    
+    border-bottom: #C6C6C6 3px outset;
+    border-left: none;
+    border-radius: 3%;
+    margin-top: 30px;
+
+}
+
+footer{
+    display: flex;
+    height: 90px;
+   
+
+   background: black;
+   color:white;
+}
+footer>p{
+    align-self: center;
+    margin-left: 20px;
+}
+#test_word{
+    color: gray;
+    text-decoration: line-through;
+}
+
+#are_word{
+    border-bottom: 2px yellow solid ;
+
+}
