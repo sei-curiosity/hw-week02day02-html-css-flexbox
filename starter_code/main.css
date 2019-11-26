@@ -1,0 +1,145 @@
+#linethroughtext {
+    color: gray;
+    text-decoration-line: line-through;
+}
+
+#underlinetext {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+
+.mainnav {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.header {
+    display: flex;
+    background: black;
+    border-bottom: 4px solid yellow;
+}
+
+.header h1 {
+    font-family: 'Merriweather', serif;
+    color: yellow;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.header nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+.navheader {
+    position: relative;
+    left: 500px;
+    top: 30px;
+}
+
+.graybackground {
+    display: flex;
+    justify-content: center;
+    background-color: #C6C6C6;
+    padding: 8px;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.imgbackground {
+    display: flex;
+    background-image: url("../starter_code/images/coworking.jpg");
+    background-repeat: no-repeat;
+    background-size: 1440px 500px;
+    height: 400px;
+}
+
+.contentonimg {
+    position: relative;
+    left: 910px;
+    border: 3 solid black;
+    margin: 15px;
+    padding: 25px 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+.contentonimg h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20;
+    /* line-height: 1.5; */
+    font-weight: 800;
+
+}
+
+.contentonimg p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20;
+    line-height: 1.5;
+}
+
+.contentonimg button {
+    background-color: yellow;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 12px 90px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(100, 100, 46);
+}
+
+.actionsectioncontainer {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.actionsectionitems {
+    width: 28%;
+    padding: 5px 20px;
+
+}
+
+.actionsectionitems h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+.actionsectionitems button {
+    background-color: #c6c6c6;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 12px 90px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(66, 66, 66);
+}
+.movebutton{
+    position: relative;
+    top:28px
+    }
+.actionsectionitems p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.seprator {
+    border-right: 1px solid #C6C6C6;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
