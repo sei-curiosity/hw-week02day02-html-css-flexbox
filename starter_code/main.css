@@ -1,0 +1,95 @@
+body{
+    background-image: url('./images/coworking.jpg');
+    background-size: cover;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    border-bottom: 5px solid yellow;
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    margin :15px;
+    align-self: flex-start;
+    
+}
+nav{
+    padding: 10px;
+    margin-right:0;
+    position: absolute;
+    right: 5px;
+    
+}
+.mainTop{
+    background-color:  lightgray;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+a{
+    margin: 10px;
+	color:#ffffff;
+    text-decoration: none;
+    font-family: Source Sans Pro, sans-serif;
+	
+
+}
+.are{
+    text-decoration:underline yellow;
+}
+.taste{
+    text-decoration: line-through;
+    color: gray
+}
+.boxMain{
+    border: 1px solid black;
+    background-color: rgba(189, 189, 189, 0.726);
+    position: relative ;
+    top: 200px;
+    right:-900px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    padding-left: 25px;
+    text-align: left    ;
+    
+    
+}
+.boxMain div{
+    background-color: yellow;
+    margin: 5px 2px;
+    position: absolute;
+    bottom: 10px;
+    padding: 10px 130px;
+    align-content: center;
+    border-radius: 5px;
+    box-sizing: content-box;
+    width: 100px;
+
+
+}
+h2{
+    padding-top: 20px;
+    margin: 0px;
+    
+    
+}
+p{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-flow: row ;
+    
+}
+.container div{
+    flex-grow: 1;
+    background-color: white;
+    border: 2px solid black;
+    align-self: flex-end;
+}
