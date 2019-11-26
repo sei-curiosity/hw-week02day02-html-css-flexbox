@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    background-color: black ;
+    padding: 2px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.yell{
+    background-color: yellow ;
+    padding: 3px;
+    color: white;
+}
+.because{
+    background-color: #999 ;
+    padding: 2px;
+    color: white;
+    text-align: center;
+}
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    /* padding-left: 10px; */
+   
+}
+.smr{
+    margin-right: 20px;
+    padding-left: 0px;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.taste{
+   font-style: italic;
+   text-decoration: line-through;
+   color: #c6c6c6;    
+}
+.are{
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+img{
+    width: 100%;
+}
+.mgtx{
+    position: relative;
+  
+}
+.insidebox{
+    position: absolute;
+    left: 830px;
+    bottom: 220px;
+    width: 290px;
+    color: black;    
+    background: rgb(210, 210, 204);
+    padding: 20px;
+    margin-right: 40px;
+    opacity: 0.8;
+}
+.butinside{
+    background: yellow;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 15px;
+    width: 220px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30px;
+
+}
+.creataprofile{
+    background: white;
+    flex-grow: 1;   
+    border-left: black;
+
+}
+.finderadeveloper{
+    background:white;
+    flex-grow: 1;
+    border-left: 1px solid gray;
+    padding-left: 70px;
+
+
+}
+.findadesigner{
+    background: white;
+    flex-grow: 1;
+    border-left: 1px solid gray;
+    padding-left: 70px;
+
+
+   
+}
+.pcdd{
+    width: 300px;
+}
+.serchen{
+    background: gray;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 220px;
+}
+footer{
+    background-color: black ;
+    padding: 11px;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: .5;
+}
