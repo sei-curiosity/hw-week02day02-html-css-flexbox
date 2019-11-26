@@ -17,13 +17,13 @@
     display: flex;
     background: black;
     border-bottom: 4px solid yellow;
+    /* padding: 25px; */
 }
 
 .header h1 {
     font-family: 'Merriweather', serif;
     color: yellow;
     margin: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
 }
 
@@ -54,6 +54,7 @@
 
 .imgbackground {
     display: flex;
+    /* flex-wrap: wrap; */
     background-image: url("../starter_code/images/coworking.jpg");
     background-repeat: no-repeat;
     background-size: 1440px 500px;
@@ -74,9 +75,7 @@
 .contentonimg h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20;
-    /* line-height: 1.5; */
     font-weight: 800;
-
 }
 
 .contentonimg p {
@@ -141,5 +140,5 @@
     justify-content: flex-start;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 25px;
 }
