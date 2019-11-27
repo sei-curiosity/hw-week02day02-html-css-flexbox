@@ -115,7 +115,6 @@ main .top-left div p {
   display: flex;
   flex-direction: row;
   padding-top: 35px;
-  height: 300px;
 }
 
 main .bottom div {
@@ -124,6 +123,10 @@ main .bottom div {
 }
 main .bottom div:last-child {
   border-right: none;
+}
+
+main .bottom div a {
+  text-align: center;
 }
 
 main .bottom div p {
@@ -141,7 +144,7 @@ main .bottom div p {
   color: var(--black);
   border-radius: 5px;
   text-transform: uppercase;
-  border-bottom: 5px solid rgb(122, 122, 122);
+  border-bottom: 5px solid #7a7a7a;
 }
 
 footer {
@@ -150,4 +153,14 @@ footer {
   color: #fff;
   background-color: var(--black);
   margin-top: 30px;
+}
+
+@media (max-width: 880px) {
+  main .bottom div {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  main .bottom div:last-child {
+    border-right: 1px solid var(--dark-gray);
+  }
 }
