@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+:root {
+  --white: #fff;
+  --yellow: yellow;
+  --black: black;
+  --dark-gray: #999;
+  --light-gray: #c6c6c6;
+  --button-font: "Oswald", sans-serif;
+}
+
+nav h1,
+header h1,
+main .top-left .flex h3 {
+  font-family: "Merriweather", serif;
+}
+
+nav {
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 3px solid var(--yellow);
+}
+nav h1 {
+  color: var(--yellow);
+  margin-left: 25px;
+}
+nav ul {
+  display: flex;
+  margin-right: 25px;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.toUppercase {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+header {
+  background-color: var(--dark-gray);
+  font-weight: 700;
+  text-align: center;
+  font-style: italic;
+}
+
+#taste {
+  color: var(--light-gray);
+  text-decoration: line-through;
+}
+#are {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+main .top-left {
+  background-image: url("images/coworking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+main .top-left div {
+  background-color: #ffffffc9;
+  width: 450px;
+  border: 1px solid #000;
+  margin-right: 55px;
+  margin-top: 55px;
+  padding: 40px;
+}
+
+main .top-left div p {
+  color: var(--black);
+}
+
+.btn-primary {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 25px;
+  text-align: center;
+  background-color: var(--yellow);
+  color: var(--black);
+  border-radius: 5px;
+  font-weight: bolder;
+  border-bottom: 5px solid #8f8f05;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  height: 300px;
+}
+
+main .bottom div {
+  border-right: 1px solid var(--dark-gray);
+  padding: 25px;
+}
+main .bottom div:last-child {
+  border-right: none;
+}
+
+main .bottom div p {
+  margin-top: 15px;
+}
+
+.btn-secondary {
+  display: block;
+  width: 300px;
+  background-color: var(--dark-gray);
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--black);
+  border-radius: 5px;
+  text-transform: uppercase;
+  border-bottom: 5px solid rgb(122, 122, 122);
+}
+
+footer {
+  display: block;
+  padding: 30px;
+  color: #fff;
+  background-color: var(--black);
+  margin-top: 30px;
+}
